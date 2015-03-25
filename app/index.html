@@ -1,0 +1,39 @@
+<html>
+<head>
+    <script type="text/javascript" src="js/vendor/jquery/jquery.min.js"></script>
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="css/bubbles.css" />
+    <script type="text/javascript" src="js/index.js"></script>
+</head>
+<body>
+    <div class="circlecontainer">
+        <span class="circle click-animation"></span>
+
+        <!-- Main Button -->
+        <div class="circle maincircle">
+            <div class="mobile-menu"> <span class="menu-line"></span>
+                <span class="menu-line"></span>
+                <span class="menu-line"></span>
+
+            </div>
+        </div>
+
+        <!-- Fly Buttons -->
+        <div class="circle circle1"> <span><i class="fa fa-twitter"></i></span></div>
+        <div class="circle circle2"> <span><i class="fa fa-facebook"></i></span></div>
+        <div class="circle circle3"> <span><i class="fa fa-linkedin"></i></span></div>
+        <div class="circle circle4"> <span><i class="fa fa-stack-overflow"></i></span></div>
+        <div class="circle circle5"> <span><i class="fa fa-instagram"></i></span></div>
+        <div class="circle circle6"> <span><i class="fa fa-github"></i></span></div>
+        <div class="circle circle7"> <span><i class="fa fa-google-plus"></i></span></div>
+        <div class="circle circle8"> <span><i class="fa fa-jsfiddle"></i></span></div>
+    </div>
+
+    <script type="text/javascript">
+    $(".maincircle" ).click(function() {
+        $(this).parent().toggleClass('open');
+    });
+
+    </script>
+</body>
+</html>

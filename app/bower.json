@@ -1,0 +1,15 @@
+{
+  "name": "SocialHamburger",
+  "version": "0.0.1",
+  "homepage": "https://github.com/felipekm/socialHamburger",
+  "authors": [
+    "felipekm <felipe.kautzmann@gmail.com>"
+  ],
+  "description": "",
+  "main": "js/index.js",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules"
+  ]
+}

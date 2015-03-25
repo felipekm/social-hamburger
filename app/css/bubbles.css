@@ -1,0 +1,223 @@
+body {
+    background: #bedcbd;;
+}
+
+.circle {
+    width: 60px;
+    height: 60px;
+    background: #5b6f5b;
+    color: #FFFFFF;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: 7.5px;
+    margin-left: 7.5px;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: all 0.45s ease-in;
+    -webkit-transition: all 0.45s ease-in;
+    text-align: center;
+}
+
+.maincircle {
+    z-index: 9;
+    width: 75px;
+    height: 75px;
+    margin-top: 0;
+    margin-left: 0;
+    transition: all 0.225s ease-in;
+    -webkit-transition: all 0.225s ease-in;
+}
+
+.maincircle .menu-line {
+    display: block;
+    width: 30px;
+    height: 3px;
+    margin: 0 0 5px;
+    background: #FFFFFF;
+    transition: all .15s ease;
+}
+
+.circle:hover {
+    background: #8ca28b;
+}
+
+.circle1 {
+    transition: all 0.45s;
+    -webkit-transition: all 0.45s;
+}
+
+.circle2 {
+    transition: all 0.45s;
+    -webkit-transition: all 0.45s;
+}
+
+.circle3 {
+    transition: all 0.45s;
+    -webkit-transition: all 0.45s;
+}
+
+.circle4 {
+    transition: all 0.45s;
+    -webkit-transition: all 0.45s;
+}
+
+.circle5 {
+    transition: all 0.45s;
+    -webkit-transition: all 0.45s;
+}
+
+.circle6 {
+    transition: all 0.45s;
+    -webkit-transition: all 0.45s;
+}
+
+.circle7 {
+    transition: all 0.45s;
+    -webkit-transition: all 0.45s;
+}
+
+.circle6 {
+    transition: all 0.45s;
+    -webkit-transition: all 0.45s;
+}
+
+.circle7 {
+    transition: all 0.45s;
+    -webkit-transition: all 0.45s;
+}
+
+.circle8 {
+    transition: all 0.45s;
+    -webkit-transition: all 0.45s;
+}
+
+.click-animation {
+    z-index: 5;
+    width: 30px;
+    height: 30px;
+    margin-top: 15px;
+    margin-left: 15px;
+    background: transparent;
+    border: 8px solid #FFF;
+    opacity: 1;
+    transition: all 0.3825s;
+    -webkit-transition: all 0.3825s;
+}
+
+.fa {
+    color: #FFFFFF;
+    font-size: 2em;
+    margin-top: -.5em;
+    margin-left: -.5em;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+}
+
+.mobile-menu {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-left: -15px;
+    margin-top: -10px;
+}
+
+.open .mobile-menu .menu-line {
+    background: #fff;
+}
+.open .maincircle {
+    -ms-transform: scale(0.8, 0.8);
+    /* IE 9 */
+    -webkit-transform: scale(0.8, 0.8);
+    /* Chrome, Safari, Opera */
+    transform: scale(0.8, 0.8);
+}
+.open .circle1 {
+    margin-top: -110px;
+    /*-webkit-animation: myOrbit 1s linear 1; */
+    /* Chrome, Safari 5 */
+    /* -moz-animation: myOrbit 1s linear 1; */
+    /* Firefox 5-15 */
+    /* -o-animation: myOrbit 1s linear 1; */
+    /* Opera 12+ */
+    /*  animation: myOrbit 1s linear 1; */
+    /* Chrome, Firefox 16+,
+    IE 10+, Safari 5 */
+}
+.open .circle2 {
+    margin-top: -77.77px;
+    margin-left: -77.77px;
+}
+.open .circle3 {
+    margin-top: 0;
+    margin-left: -110px;
+}
+.open .circle4 {
+    margin-top: 77.77px;
+    margin-left: -77.77px;
+}
+.open .circle5 {
+    margin-top: 110px;
+}
+.open .circle6 {
+    margin-top: 77.77px;
+    margin-left: 94px;
+}
+.open .circle7 {
+    margin-top: -77.77px;
+    margin-left: 94.77px;
+}
+.open .circle8 {
+    margin-top: 0px;
+    margin-left: 125px;
+}
+
+
+.open .click-animation {
+    z-index: 1;
+    -ms-transform: scale(2, 2);
+    /* IE 9 */
+    -webkit-transform: scale(2, 2);
+    /* Chrome, Safari, Opera */
+    transform: scale(2, 2);
+    opacity: 0;
+}
+
+/*
+* Set up the keyframes to actually describe the begining and end states of
+* the animation.  The browser will interpolate all the frames between these
+* points.  Again, remember your vendor-specific prefixes for now!
+*/
+@-webkit-keyframes myOrbit {
+    from {
+        -webkit-transform: rotate(0deg) translateX(150px) rotate(0deg);
+    }
+    to {
+        -webkit-transform: rotate(360deg) translateX(150px) rotate(-360deg);
+    }
+}
+@-moz-keyframes myOrbit {
+    from {
+        -moz-transform: rotate(0deg) translateX(150px) rotate(0deg);
+    }
+    to {
+        -moz-transform: rotate(360deg) translateX(150px) rotate(-360deg);
+    }
+}
+@-o-keyframes myOrbit {
+    from {
+        -o-transform: rotate(0deg) translateX(150px) rotate(0deg);
+    }
+    to {
+        -o-transform: rotate(360deg) translateX(150px) rotate(-360deg);
+    }
+}
+@keyframes myOrbit {
+    from {
+        transform: rotate(0deg) translateX(150px) rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg) translateX(150px) rotate(-360deg);
+    }
+}
