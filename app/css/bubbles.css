@@ -47,14 +47,6 @@ body {
     -webkit-transition: all 0.45s;
 }
 
-.circle .circle1 i {
-    padding: 2px;
-}
-
-.circle .circle2 i {
-    padding: 3px;
-}
-
 .circle2 {
     transition: all 0.45s;
     -webkit-transition: all 0.45s;
