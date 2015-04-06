@@ -13,7 +13,7 @@ gulp.task( 'watch', function() {
 });
 
 gulp.task( 'connect', function() {
-  connect.server({ livereload: true });
+  connect.server({ livereload: true, port: 8000 });
 });
 
 gulp.task( 'default', [ 'connect', 'watch' ]);
