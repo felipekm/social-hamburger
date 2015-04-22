@@ -1,0 +1,19 @@
+{
+  "name": "SocialHamburguer",
+  "version": "1.0.0",
+  "description": "![Stars](https://github.com/felipekm/SocialHamburguer/blob/master/app/img/socialHamb.gif?raw=true)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/felipekm/SocialHamburguer"
+  },
+  "author": "@felipekm",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/felipekm/SocialHamburguer/issues"
+  },
+  "homepage": "https://github.com/felipekm/SocialHamburguer"
+}
